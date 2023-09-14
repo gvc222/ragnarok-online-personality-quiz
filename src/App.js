@@ -244,8 +244,7 @@ function App() {
         setScores({...scores, thief: scores.thief + 1});
         break;
       default:
-        setScores({...scores})
-        break;
+        //do nothing
     }
   }
 
